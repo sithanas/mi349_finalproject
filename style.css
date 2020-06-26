@@ -1,0 +1,91 @@
+body {
+    font-family: sans-serif;
+    background-color: #ccc;
+    color: #222;
+    margin-top: 10px;
+}
+
+h1 {
+    margin: 15px;
+    text-align: center;
+    font-size: +3em;
+}
+
+h2 {
+    margin: 15px;
+    text-align: center;
+    font-size: +1.5em;
+    font-weight: 200;
+}
+
+.intro {
+    margin: 0 auto;
+    text-align: justify;
+    max-width: 450px;
+    font-size: +1.2em;
+    font-weight: 200;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.food {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0,0,0, .3) 0 0 20px;
+    border: 1px solid #aaa;
+    border-radius: 15px;
+    background-color: #bbb;
+    margin: 50px;
+    padding: 20px 30px 32px 30px;
+}
+
+.food h1 {
+    text-align: center;
+    margin: 5px 0 5px 0;
+    font-weight: 400;
+    font-size: +1.75em;
+
+}
+
+.food h2 {
+    text-align: center;
+    margin: 5px 0 5px 0;
+    font-weight: 200;
+    font-size: +1.2em;
+}
+
+.food p {
+    background-color: rgb(201, 201, 201);
+    box-shadow: rgba(0,0,0, .3) 0 0 5px;
+    font-size: +1em;
+    font-weight: 400;
+    margin: 0 auto;
+    max-width: 525px;
+    padding: 10px;
+
+
+}
+
+.food .imgcontainer {
+    background-color: #bbb;
+    box-shadow: none;
+    border: none;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+.food .imgcontainer img {
+    max-width: 450px;
+    height: auto;
+    border: 2px solid #444;
+}
